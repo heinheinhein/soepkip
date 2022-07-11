@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <title>soepkip</title>
+    <meta name="description" content="je bent een soepkip">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+    <meta property="og:title" content="soepkip">
+    <meta property="og:description" content="je bent een soepkip">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://soepkip.nl.eu.org/">
+    <meta property="og:site_name" content="soepkip">
+    <meta property="og:image" content="https://soepkip.nl.eu.org/img/wide.png">
+
+    <meta name="twitter:title" content="soepkip">
+    <meta name="twitter:description" content="je bent een soepkip">
+    <meta name="twitter:image" content="https://soepkip.nl.eu.org/img/wide.png">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" href="/img/icon.png">
+    <link rel="icon" href="/img/favicon/1.png">
+
+    <meta name="application-name" content="soepkip">
+    <meta name="msapplication-tooltip" content="je bent een soepkip">
+    <meta name="theme-color" content="#161616">
+
+    <meta name="google-site-verification" content="gJHcrCWfZiHXnBWeSygbID8f8gBKRsR9Pavn3zBQAqQ">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/soepkip.css">
+</head>
+
+<body>
+<div id="content">
+    <h1 hidden>soepkip</h1>
+    <img id="title-image" src="/img/soepkip.gif" alt="dansende letters die soepkip uitspellen" title="soepkip">
+    <p id="tekst" class="futura">genereer hier je eigen dansende letters gif!</p>
+
+    <div id="formulier">
+        <label for="input" hidden>input</label><input type="text"
+                                                      placeholder="soepkip"
+                                                      id="input"
+                                                      class="cascadiamono"
+                                                      autofocus>
+        <button id="submit" class="cascadiamono" onclick="generate();">></button>
+        <br>
+
+        <label for="kleur" id="kleur-label" class="futura label">kleur</label><input type="color"
+                                                                                     id="kleur"
+                                                                                     value="#F00000"
+                                                                                     onchange="kleurChange();">
+        <label for="regenboog" id="regenboog-label" class="futura label">regenboog</label><input type="checkbox"
+                                                                                                 id="regenboog"
+                                                                                                 onclick="checkbox();">
+    </div>
+
+    <div id="loader" class="cascadiamono loading" hidden></div>
+    <img id="output" hidden>
+    <button id="download" class="futura" onclick="dl();">⭳ download</button>
+    <a id="downloadAnchor" hidden></a>
+
+    <p id="kleine-tekst" class="futura">
+        mede mogelijk gemaakt door de dansende letters van <a target="_blank" href="https://www.artiestick.com/">artiestick.com</a>
+    </p>
+
+    <canvas id="canvas" hidden></canvas>
+    <canvas id="favicon" hidden></canvas>
+    <audio preload="auto" src="audio/soep.mp3" hidden></audio>
+    <audio preload="auto" src="audio/kip.mp3" hidden></audio>
+</div>
+<div id="by31s">
+    <a href="https://twitter.com/heinheinheinhei" target="_blank"><img src="/img/0twitter.gif" alt="twitter"></a>
+</div>
+
+<div id="soepkippen"></div>
+<script src="/js/achtergrond.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/gifjs/gif.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+.soepkip {
+    position: absolute;
+    cursor: default;
+    z-index: 0;
+}
+
+.soepkip:hover {
+    filter: invert();
+}
+
+.soepkip::selection {
+    color: unset;
+    background: unset;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+

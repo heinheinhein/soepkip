@@ -1,0 +1,15 @@
+{
+  "short_name": "soepkip",
+  "name": "soepkip",
+  "description": "je bent een soepkip",
+  "lang": "nl-NL",
+  "dir": "ltr",
+  "icons": [{
+    "src": "img/icon.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }],
+  "start_url": "https://soepkip.nl.eu.org",
+  "background_color": "#161616",
+  "theme_color": "#161616"
+}

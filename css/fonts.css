@@ -1,0 +1,170 @@
+@font-face {
+    font-family: Calibri;
+    src: url("/fonts/Calibri.ttf") format("truetype");
+}
+
+.calibri {
+    font-family: Calibri;
+}
+
+@font-face {
+    font-family: "Cascadia Mono";
+    src: url("/fonts/CascadiaMono.ttf") format("truetype");
+}
+
+.cascadiamono {
+    font-family: "Cascadia Mono";
+}
+
+@font-face {
+    font-family: Chiller;
+    src: url("/fonts/Chiller.ttf") format("truetype");
+}
+
+.chiller {
+    font-family: Chiller;
+}
+
+@font-face {
+    font-family: "Comic Sans MS";
+    src: url("/fonts/ComicSansMS3.ttf") format("truetype");
+}
+
+.comicsansms {
+    font-family: "Comic Sans MS";
+}
+
+@font-face {
+    font-family: Consolas;
+    src: url("/fonts/Consolas.ttf") format("truetype");
+}
+
+.consolas {
+    font-family: Consolas;
+}
+
+@font-face {
+    font-family: "Cooper Black";
+    src: url("/fonts/Cooper Black.ttf") format("truetype");
+}
+
+.cooperblack {
+    font-family: "Cooper Black";
+}
+
+@font-face {
+    font-family: "Copperplate Gothic";
+    src: url("/fonts/Copperplate Gothic.ttf") format("truetype");
+}
+
+.copperplategothic {
+    font-family: "Copperplate Gothic";
+}
+
+@font-face {
+    font-family: "Courier New";
+    src: url("/fonts/Courier New.ttf") format("truetype");
+}
+
+.couriernew {
+    font-family: "Courier New";
+}
+
+@font-face {
+    font-family: Futura;
+    src: url("/fonts/Futura.ttf") format("truetype");
+}
+
+.futura {
+    font-family: Futura;
+}
+
+@font-face {
+    font-family: "Harlow Solid";
+    src: url("/fonts/Harlow Solid.ttf") format("truetype");
+}
+
+.harlowsolid {
+    font-family: "Harlow Solid";
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url("/fonts/Helvetica.ttf") format("truetype");
+}
+
+.helvetica {
+    font-family: Helvetica;
+}
+
+@font-face {
+    font-family: Impact;
+    src: url("/fonts/Impact.ttf") format("truetype");
+}
+
+.impact {
+    font-family: Impact;
+}
+
+@font-face {
+    font-family: "ITC Avant Garde Gothic";
+    src: url("/fonts/ITC Avant Garde Gothic.ttf") format("truetype");
+}
+
+.itcavantgardegothic {
+    font-family: "ITC Avant Garde Gothic";
+}
+
+@font-face {
+    font-family: Jokerman;
+    src: url("/fonts/Jokerman.ttf") format("truetype");
+}
+
+.jokerman {
+    font-family: Jokerman;
+}
+
+@font-face {
+    font-family: Minecrafter;
+    src: url("/fonts/Minecrafter.ttf") format("truetype");
+}
+
+.minecrafter {
+    font-family: Minecrafter;
+}
+
+@font-face {
+    font-family: Papyrus;
+    src: url("/fonts/Papyrus.ttf") format("truetype");
+}
+
+.papyrus {
+    font-family: Papyrus;
+}
+
+@font-face {
+    font-family: Rijksoverheid;
+    src: url("/fonts/RijksoverheidSerif.ttf") format("truetype");
+}
+
+.rijksoverheid {
+    font-family: Rijksoverheid;
+}
+
+@font-face {
+    font-family: Univers;
+    src: url("/fonts/Univers.ttf") format("truetype");
+}
+
+.univers {
+    font-family: Univers;
+}
+
+@font-face {
+    font-family: Wingdings;
+    src: url("/fonts/Wingdings.ttf") format("truetype");
+}
+
+.wingdings {
+    font-family: Wingdings;
+}
