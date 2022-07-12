@@ -301,7 +301,7 @@ function drawFavicon() {
 const faviconFrames = [];
 for (let i = 0; i < 7; i++) {
     faviconFrames[i] = new Image;
-    faviconFrames[i].src = `img/favicon/${i + 1}.png`;
+    faviconFrames[i].src = `/img/favicon/${i + 1}.png`;
 
     faviconFrames[i].onload = function () {
         if (i === 6) {
