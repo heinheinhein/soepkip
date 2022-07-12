@@ -274,8 +274,14 @@ function HSVtoRGB(h, s, v) {
 }
 
 function playSound(event) {
-    if (event.target.innerHTML === 'soep') return new Audio('audio/soep.mp3').play();
-    if (event.target.innerHTML === 'kip') return new Audio('audio/kip.mp3').play();
+    if (event.target.innerHTML === 'soep') {
+        event.target.remove();
+        return new Audio('audio/soep.mp3').play();
+    }
+    if (event.target.innerHTML === 'kip') {
+        event.target.remove();
+        return new Audio('audio/kip.mp3').play();
+    }
 }
 
 
